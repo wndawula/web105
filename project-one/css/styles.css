@@ -1,0 +1,55 @@
+body{
+    background-color: blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 2;
+    font-size: large;
+}
+
+h1, h2, h3{
+    color: blueviolet;
+    font-weight: 800;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: medium;
+    font-style: italic;
+    font-weight: 800;
+    color: red;
+}
+nav{
+    text-align: center;
+    font-size: x-large;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: blueviolet;
+    padding: 5px 15px;
+    color: beige;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+}
+
+nav a:hover{
+    background-color: beige;
+    color: blueviolet;
+}
+
+main img{
+    width: 35%;
+    height: auto;
+    /*center the image */
+    display: block;
+    margin: 15px auto;
+}
+
+a{
+    color: blueviolet;
+}
+
+footer{
+    text-align: center;
+}
